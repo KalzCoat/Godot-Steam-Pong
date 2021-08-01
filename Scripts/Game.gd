@@ -88,7 +88,7 @@ func closeP2PSession():
 	Global.OPPONENT_ID = 0
 	Global.OPPONENT_USERNAME = ""
 	Global.IS_HOST = false
-	#DESTROY LOBBY
+
 	get_tree().change_scene("res://Scenes/Menu.tscn")
 
 func instanceBall():
